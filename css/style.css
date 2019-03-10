@@ -5,15 +5,20 @@
 
 h1,
 h2,
-h3 {
+ {
     font-family: lakeside, sans-serif;
     font-weight: 500;
     color: #5a3c32;
     font-style: normal;
     font-size: 3.5em;
+    }
 
+h3{
+    font-family: lakeside, sans-serif;
+    font-weight: 500;
+    color: #5a3c32;
+    font-size: 2em;
 }
-
 .bigphoto {
     background-image: url(../images/baggrundsbillede-mobil.jpg);
     width: 100%;
@@ -105,9 +110,7 @@ main {
 }
 
 /*Forside*/
-.forsideindhold{
-    padding: 5%;
-}
+
 #total5 {
     width: 100%;
     margin-bottom: 40px;
@@ -194,6 +197,10 @@ footer {
 
 
 @media only screen and (max-width: 700px) {
+   
+    .forsideindhold{
+    padding: 5%;
+}
     
     .produktpic{
         width: 100%;
@@ -316,7 +323,7 @@ footer {
     
     /* Produkter */
 
-    /#produkter-wrapper h1 {
+    #produkter-wrapper h1 {
     position: relative;
     left: 11.2%;
     
@@ -405,6 +412,5 @@ footer {
     
     font-family: lakeside, sans-serif;
     font-size: 2em;
-    
-}
+    }
   
