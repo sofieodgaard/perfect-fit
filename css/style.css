@@ -105,6 +105,9 @@ main {
 }
 
 /*Forside*/
+.forsideindhold{
+    padding: 5%;
+}
 #total5 {
     width: 100%;
     margin-bottom: 40px;
@@ -113,9 +116,9 @@ main {
 /*Katten*/
 
 
+
 .galleri-kat{
-width:100%;
-margin-bottom: 40px;
+    width:100%;
 }
 
 
@@ -196,9 +199,6 @@ footer {
         width: 100%;
     }
     
-  }
-
-
 
 .ikon-footer {
     display: flex;
@@ -213,8 +213,25 @@ footer {
     font-size: 2em;
     
 }
+    .artikel-katten{
+        padding: 5%;
+    }
+    .galleri-kat{
+    width:100%;
+}
+#produkter-wrapper{
+    padding: 5%;
+}
 
+.forhandlere {
+       padding: 5%;
 
+    }
+
+    .om-perfect-fit {
+        padding: 5%;
+    }
+  }
 
 
 
@@ -302,16 +319,18 @@ footer {
     /#produkter-wrapper h1 {
     position: relative;
     left: 11.2%;
-    margin-top: 20px;
     
 }
+    #produkter-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
     
 
     .accordion-container {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 30px;
     }
 
     
@@ -319,13 +338,13 @@ footer {
        display: flex;
     flex-wrap: wrap;
         justify-content: center;
-       
+       padding: 3%;
     }
     .accordion-sensitive {
        display: flex;
     flex-wrap: wrap;
         justify-content: center;
-       
+       padding: 3%;
     }
 
 
