@@ -13,6 +13,13 @@ h3 {
     font-size: 3.5em;
 
 }
+h4{
+    font-family: lakeside, sans-serif;
+    font-weight: 500;
+    color: #5a3c32;
+    font-style: normal;
+    font-size: 2em; 
+}
 
 .bigphoto {
     background-image: url(../images/baggrundsbillede-mobil.jpg);
